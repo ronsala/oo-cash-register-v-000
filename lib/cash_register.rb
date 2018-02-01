@@ -13,7 +13,7 @@ class CashRegister
   end
 
   def apply_discount(discount)
-    @total =
+    # @total =
   end
 
   def void_last_transaction
