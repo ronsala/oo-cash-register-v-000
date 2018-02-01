@@ -3,7 +3,7 @@ class CashRegister
   attr_accessor :total, :last_transaction
 
   def initialize
-    cash_register = CashRegister.new
+    # cash_register = CashRegister.new
     @total = 0
   end
 
