@@ -8,7 +8,7 @@ class CashRegister
   end
 
   def cash_register_with_discount(discount)
-
+    initialize
     apply_discount
   end
 
