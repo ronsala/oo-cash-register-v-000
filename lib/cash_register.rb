@@ -7,12 +7,12 @@ class CashRegister
     @total = 0.0
   end
 
-  def cash_register_with_discount(discount)
+  def cash_register_with_discount#(discount)
     initialize
     apply_discount
   end
 
-  def apply_discount(discount)
+  def apply_discount#(discount)
     # @total =
   end
 
