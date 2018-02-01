@@ -2,8 +2,10 @@ class Person
 
   attr_accessor :total, :last_transaction
 
+  @total = 0
+
   def initialize(total)
-    @total = 0.0
+    @total = total
   end
 
 end
